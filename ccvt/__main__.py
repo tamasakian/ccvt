@@ -20,7 +20,8 @@ def parse_args():
     return args
 
 functions = {
-    "output_protein_id": cvt.output_protein_id
+    "output": cvt.output,
+    "generate_list": cvt.generate_list
 }
 
 if __name__ == "__main__":
