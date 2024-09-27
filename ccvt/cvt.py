@@ -25,5 +25,5 @@ def output_protein_id(*input_ids: str) -> None:
 
     for input_id in input_ids:
         if input_id in cc_dict:
-            print(f"{input_id}: {cc_dict[input_id]}")
+            print(f"{input_id} -> {cc_dict[input_id]}")
 
