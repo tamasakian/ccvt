@@ -11,3 +11,7 @@ authors = [
     {name = "tamasakian", email = "takagawa.masaki.q2@dc.tohoku.ac.jp"}
 ]
 readme = "README.md"
+
+[tool.setuptools]
+packages = ["ccvt"]
+
