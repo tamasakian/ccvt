@@ -10,5 +10,5 @@
 !/ccvt/
 !/ccvt/*.py
 
-!/data/
-!/data/cc.json
+!/ccvt/data/
+!/ccvt/data/cc.json
