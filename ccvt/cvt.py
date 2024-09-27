@@ -41,7 +41,7 @@ def generate_list(input_filename: str, output_filename: str) -> None:
 
     """
 
-    with open(f"{Path(__file__).parent}/data/cc.json", "r") as input_handle:
+    with open(f"{Path(__file__).parent}/ccvt/data/cc.json", "r") as input_handle:
         cc_dict = json.load(input_handle)
 
     with open(input_filename, "r") as input_handle, open(output_filename, "w") as output_handle:
