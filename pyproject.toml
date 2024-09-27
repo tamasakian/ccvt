@@ -11,7 +11,7 @@ authors = [
     {name = "tamasakian", email = "takagawa.masaki.q2@dc.tohoku.ac.jp"}
 ]
 readme = "README.md"
-package-data = { ccvt = ["data/*"] }  # data ディレクトリ内のすべてのファイルを含める
+package-data = { ccvt = ["data/*"] }
 
 [tool.setuptools]
 packages = ["ccvt"]
