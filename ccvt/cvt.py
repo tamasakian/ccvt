@@ -21,7 +21,7 @@ def output(*input_ids: str) -> None:
        Input CcIDs.
 
     """
-    with open(f"{Path(__file__).parent}/ccvt/data/cc.json", "r") as input_handle:
+    with open(f"{Path(__file__).parents[1]}/data/cc.json", "r") as input_handle:
         cc_dict = json.load(input_handle)
 
     for input_id in input_ids:
@@ -41,7 +41,7 @@ def generate_list(input_filename: str, output_filename: str) -> None:
 
     """
 
-    with open(f"{Path(__file__).parent}/ccvt/data/cc.json", "r") as input_handle:
+    with open(f"{Path(__file__).parents[1]}/data/cc.json", "r") as input_handle:
         cc_dict = json.load(input_handle)
 
     with open(input_filename, "r") as input_handle, open(output_filename, "w") as output_handle:
