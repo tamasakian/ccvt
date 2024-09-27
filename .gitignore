@@ -3,6 +3,7 @@
 
 ## do not ignore files
 !/pyproject.toml
+!/MANIFEST.in
 !/README.md
 !/.gitignore
 
