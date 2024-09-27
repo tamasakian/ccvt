@@ -14,4 +14,9 @@ readme = "README.md"
 
 [tool.setuptools]
 packages = ["ccvt"]
+include_package_data = true 
+
+[tool.setuptools.package_data]
+ccvt = ["data/*"]
+
 
