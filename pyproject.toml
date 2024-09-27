@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccvt"
+version = "0.0.1"
+description = "CCVT: A Converter for Cuscuta campestris"
+requires-python = ">=3.8"
+authors = [
+    {name = "tamasakian", email = "takagawa.masaki.q2@dc.tohoku.ac.jp"}
+]
+readme = "README.md"
