@@ -27,7 +27,7 @@ Generate protein_id list by CcIDs.
 python3 -m ccvt generate_list <input_file> <output_file>
 ```
 
-Input file must be in the format;
+Input file must be in this format;
 
 ```{input_file}
 <CcID1>
