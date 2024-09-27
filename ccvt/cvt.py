@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 #!/usr/bin/env python3
 
@@ -19,10 +20,10 @@ def output_protein_id(*input_ids: str) -> None:
        Input CcIDs.
 
     """
-    with open("../data/cc.json", "r") as input_handle:
+    with open(f"{Path(__file__).parents[1]}/data/cc.json", "r") as input_handle:
         cc_dict = json.load(input_handle)
 
     for input_id in input_ids:
         if input_id in cc_dict:
-            print(cc_dict[input_id])
+            print(f"{input_id}: {cc_dict[input_id]}")
 
