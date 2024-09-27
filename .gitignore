@@ -9,3 +9,6 @@
 ## do not ignore files in dirs
 !/ccvt/
 !/ccvt/*.py
+
+!/data/
+!/cc.json
