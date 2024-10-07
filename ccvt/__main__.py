@@ -21,7 +21,8 @@ def parse_args():
 
 functions = {
     "output": cvt.output,
-    "generate_list": cvt.generate_list
+    "generate_list": cvt.generate_list, 
+    "convert_tsv": cvt.convert_tsv
 }
 
 if __name__ == "__main__":
