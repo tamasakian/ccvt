@@ -34,3 +34,11 @@ Input file must be in this format;
 <CcID2>
 ...
 ```
+
+### convert_tsv
+
+Parse TSV file and Convert CcID to protein_id.
+
+```
+python3 -m ccvt convert_tsv <input_file> <output_file>
+```
