@@ -28,7 +28,7 @@ def output(*input_ids: str) -> None:
     for input_id in input_ids:
         if input_id not in cc_dict:
             continue
-        print(f"{input_id} -> {cc_dict[input_id]}")
+        print(f"{input_id}\t{cc_dict[input_id]}")
 
 def generate_list(input_filename: str, output_filename: str) -> None:
     """Generate protein_id list by CcIDs.
@@ -52,7 +52,7 @@ def generate_list(input_filename: str, output_filename: str) -> None:
             line = line.strip()
             if line not in cc_dict:
                 continue
-            output_handle.write(f"{line} -> {cc_dict[line]}\n")
+            output_handle.write(f"{line}\t{cc_dict[line]}\n")
 
 
 def convert_tsv(input_filename: str, output_filename: str) -> None:

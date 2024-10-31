@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ccvt"
-version = "0.0.1"
+version = "1.0.1"
 description = "CCVT: A Converter for Cuscuta campestris"
 requires-python = ">=3.8"
 authors = [
